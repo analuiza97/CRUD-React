@@ -1,12 +1,16 @@
-import React from 'react'
-import Main from '../template/Main'
+import React from "react";
+import Main from "../template/Main";
 
-export default props =>
-    <Main icon="home" title="Início"
-        subtitle="Projeto do capítulo de React desenvolvido por Ana Luíza Fontes.">
-        <div className='display-4'>Seja Bem Vindo!</div>
-        <hr />
-        <p className="mb-0">Sistema para exemplificar a construção
-            de um cadastro desenvolvido em React!</p>
-        
-    </Main>
+export default (props) => (
+  <Main
+    icon="home"
+    title="Início"
+    subtitle="Sistema de cadastro de animais para a Clínica Pegadas Pet"
+  >
+    <div className="display-4">Clínica Pegadas Pet 🐾</div>
+    <hr />
+    <p className="mb-0">
+      Para cadastrar um animal, selecione "Cadastro" na barra lateral.
+    </p>
+  </Main>
+);
