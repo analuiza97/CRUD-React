@@ -1,14 +1,20 @@
 {
-  "users": [
+  "pets": [
     {
       "id": 1,
-      "name": "Ana Luíza",
-      "email": "analuiza@gmail.com"
+      "nome": "Fumaça",
+      "raca": "gato de pelo curto brasileiro",
+      "idade": "8",
+      "tutor": "Luíza Feijó",
+      "contato": "24999646643"
     },
     {
       "id": 2,
-      "name": "Miguel Soares",
-      "email": "msoares@outlook.com"
+      "nome": "Bigode",
+      "raca": "SRD",
+      "idade": "4 anos e meio",
+      "tutor": "Beatriz Fontes",
+      "contato": "2422457809"
     }
   ]
 }
